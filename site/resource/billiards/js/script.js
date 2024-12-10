@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
 		initCommon();
         initMain();
         initSub();
-        
+
         function initHeader() {
             $(".hbg-btn").on("click", function() {
                 $(this).toggleClass("close");
