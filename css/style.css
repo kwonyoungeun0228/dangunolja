@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import url(/site/resource/billiards/fonts/pretendard/pretendard.css);
-@import url(/site/resource/billiards/fonts/bootstrap/bootstrap-icons.min.css);
+@import url(../fonts/pretendard/pretendard.css);
+@import url(../fonts/bootstrap/bootstrap-icons.min.css);
 @font-face {
     font-family: 'GmarketSans';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
@@ -1177,7 +1177,7 @@ textarea.form-control::-webkit-scrollbar-track {
     right: 15px;
     width: auto;
     border-radius: 0;
-    background: transparent url(/site/resource/billiards/images/f-arrow.png) no-repeat center right 10px;
+    background: transparent url(../images/f-arrow.png) no-repeat center right 10px;
     color: #fff;
     font-size: 12px;
     padding: 6px 38px 5px 8px;
@@ -1552,7 +1552,7 @@ textarea.form-control::-webkit-scrollbar-track {
         left: 50%;
         width: 33px;
         height: 32px;
-        background: url(/site/resource/billiards/images/main-quick-icon.png) no-repeat center/cover;
+        background: url(../images/main-quick-icon.png) no-repeat center/cover;
         transform: translateX(-50%);
         transition: all .3s ease-out;
     }
@@ -1582,7 +1582,7 @@ textarea.form-control::-webkit-scrollbar-track {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/site/resource/billiards/images/billiard-stick01.png) no-repeat top/100%;
+    background: url(../images/billiard-stick01.png) no-repeat top/100%;
     z-index: -1;
 }
 .promotion-item {
@@ -1653,7 +1653,7 @@ textarea.form-control::-webkit-scrollbar-track {
     right: -3%;
     width: 200px;
     height: 155px;
-    background: url(/site/resource/billiards/images/billiard-ball04.png) no-repeat center / 100%;
+    background: url(../images/billiard-ball04.png) no-repeat center / 100%;
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.4));
 }
 .profit-wrap .row {
@@ -2058,7 +2058,7 @@ textarea.form-control::-webkit-scrollbar-track {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background: url(/site/resource/billiards/images/sample-img01.png) no-repeat center/cover;
+    background: url(../images/sample-img01.png) no-repeat center/cover;
     opacity: .06;
     z-index: -1;
 }
@@ -2357,7 +2357,7 @@ textarea.form-control::-webkit-scrollbar-track {
     background-color: #3658A6;
 }
 .conversion-card.type01 .card-header::after {
-    background-image: url(/site/resource/billiards/images/card-icon01.png);
+    background-image: url(../images/card-icon01.png);
 }
 .conversion-card.type01 .card-body > .tit {
     color: #3658A6;
@@ -2366,7 +2366,7 @@ textarea.form-control::-webkit-scrollbar-track {
     background-color: #3D3D42;
 }
 .conversion-card.type02 .card-header::after {
-    background-image: url(/site/resource/billiards/images/card-icon02.png);
+    background-image: url(../images/card-icon02.png);
 }
 .conversion-card.type02 .card-body > .tit {
     color: #3D3D42;
@@ -2541,7 +2541,7 @@ textarea.form-control::-webkit-scrollbar-track {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/site/resource/billiards/images/billiard-stick03.png);
+    background-image: url(../images/billiard-stick03.png);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 100%;
@@ -2562,7 +2562,7 @@ textarea.form-control::-webkit-scrollbar-track {
     left: -40%;
     width: 60px;
     height: 60px;
-    background: url(/site/resource/billiards/images/billiard-ball02.png) no-repeat center/cover;
+    background: url(../images/billiard-ball02.png) no-repeat center/cover;
     filter: drop-shadow(10px 10px 20px rgba(0,0,0,.3))
 }
 .daily-wrap .tit-box > .tit::after {
@@ -2572,7 +2572,7 @@ textarea.form-control::-webkit-scrollbar-track {
     right: -38%;
     width: 60px;
     height: 60px;
-    background: url(/site/resource/billiards/images/billiard-ball03.png) no-repeat center/cover;
+    background: url(../images/billiard-ball03.png) no-repeat center/cover;
     filter: drop-shadow(10px 10px 20px rgba(0,0,0,.3))
 }
 .daily-box {
@@ -2662,7 +2662,7 @@ textarea.form-control::-webkit-scrollbar-track {
 }
 @media(min-width: 992px) {
     .daily-wrap::before {
-        background-image: url(/site/resource/billiards/images/billiard-stick02.png);
+        background-image: url(../images/billiard-stick02.png);
         background-size: 100%;
     }
     .daily-wrap .tit-box > .tit::before {
@@ -2759,7 +2759,7 @@ textarea.form-control::-webkit-scrollbar-track {
     right: 0;
     width: 22px;
     height: 19px;
-    background: url(/site/resource/billiards/images/sale-icon01.png) no-repeat center/cover;
+    background: url(../images/sale-icon01.png) no-repeat center/cover;
 }
 .sale-card .sale-list {
     display: flex;
@@ -3038,7 +3038,7 @@ textarea.form-control::-webkit-scrollbar-track {
     border: 0;
     outline: 0;
     appearance: none;
-    background: transparent url(/site/resource/billiards/images/angle-down.png) no-repeat right 26px center;
+    background: transparent url(../images/angle-down.png) no-repeat right 26px center;
 }
 .tab-select-outer > select > option {
     color: #222;
